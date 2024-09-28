@@ -46,4 +46,9 @@ public class UserController {
     	
     	return userService.getAllUserDetails();
     }
+    @PostMapping("/send")
+    public String sendOrder() {
+		return "Order make successfully";
+    	
+    }
 }
