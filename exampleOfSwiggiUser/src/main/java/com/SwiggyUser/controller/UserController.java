@@ -55,4 +55,13 @@ public class UserController {
 	@GetMapping("/payment")
 	public String getPayment(){
 		return "payment received successfully";
+	}
+	@GetMapping("/check")
+	public String checkOrderRecieveOrNot(){
+		
+		retrun "Order receive successully";
+	}
 }
+
+	
+	
