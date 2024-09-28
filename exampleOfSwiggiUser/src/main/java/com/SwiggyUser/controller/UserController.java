@@ -59,7 +59,7 @@ public class UserController {
 	@GetMapping("/check")
 	public String checkOrderRecieveOrNot(){
 		
-		retrun "Order receive successully";
+		return "Order receive successully";
 	}
 }
 
